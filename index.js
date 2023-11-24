@@ -13,3 +13,6 @@ app.listen(PORT ,()=>{
 app.get('/',(req,res)=>{
     res.send("hi server is connected")
 })
+
+
+module.exports = app
